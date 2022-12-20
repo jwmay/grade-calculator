@@ -8,7 +8,7 @@ import {
   Stepper,
 } from '@mui/material'
 import { SettingsContext } from '../contexts/SettingsContext'
-import CalculationSelector from './CalculationSelector'
+// import CalculationSelector from './CalculationSelector'
 import GradeInput from './GradeInput'
 import SemesterSelector from './SemesterSelector'
 

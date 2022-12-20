@@ -1,25 +1,25 @@
 import React from 'react'
-import { Box, Tab, Tabs } from '@mui/material'
-import { SettingsContext } from '../contexts/SettingsContext'
-import { SEMESTER_GOAL, SEMESTER_PREDICTION } from '../constants/CalcTypes'
-import SemesterGradeGoal from './SemesterGradeGoal'
+// import { Box, Tab, Tabs } from '@mui/material'
+// import { SettingsContext } from '../contexts/SettingsContext'
+// import { SEMESTER_GOAL, SEMESTER_PREDICTION } from '../constants/CalcTypes'
+// import SemesterGradeGoal from './SemesterGradeGoal'
 import SemesterGradePrediction from './SemesterGradePrediction'
 
-const TabPanel = ({ children, index, value }) => (
-  <Box hidden={value !== index}>
-    {value === index && <Box sx={{ p: 3 }}>{children}</Box>}
-  </Box>
-)
+// const TabPanel = ({ children, index, value }) => (
+//   <Box hidden={value !== index}>
+//     {value === index && <Box sx={{ p: 3 }}>{children}</Box>}
+//   </Box>
+// )
 
 export default function Results() {
-  const { settings, setSetting } = React.useContext(SettingsContext)
+  // const { settings, setSetting } = React.useContext(SettingsContext)
 
-  const [value, setValue] = React.useState(settings.calcType)
+  // const [value, setValue] = React.useState(settings.calcType)
 
-  const handleChange = (event, newValue) => {
-    setSetting('calcType', newValue)
-    setValue(newValue)
-  }
+  // const handleChange = (event, newValue) => {
+  //   setSetting('calcType', newValue)
+  //   setValue(newValue)
+  // }
 
   // return (
   //   <Box sx={{ width: '100%' }}>

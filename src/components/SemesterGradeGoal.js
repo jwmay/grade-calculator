@@ -1,18 +1,18 @@
 import React from 'react'
 import { Box, Grid, Stack, Typography } from '@mui/material'
 import { SettingsContext } from '../contexts/SettingsContext'
-import { QUARTER_NUMBERS } from '../constants/QuarterNumbers'
+// import { QUARTER_NUMBERS } from '../constants/QuarterNumbers'
 import GradeCard from './GradeCard'
-import GradeInput from './GradeInput'
+// import GradeInput from './GradeInput'
 import GradeSlider from './GradeSlider'
-import useGradeFormat from '../hooks/useGradeFormat'
+// import useGradeFormat from '../hooks/useGradeFormat'
 
-const Grade = ({ score }) => useGradeFormat(score)
+// const Grade = ({ score }) => useGradeFormat(score)
 
 export default function SemesterGradeGoal() {
   const { settings } = React.useContext(SettingsContext)
 
-  const quarterNames = settings.quarterNames[settings.semester]
+  // const quarterNames = settings.quarterNames[settings.semester]
 
   return (
     <Box>
