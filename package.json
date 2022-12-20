@@ -1,6 +1,7 @@
 {
   "name": "grade-calculator",
   "version": "0.1.0",
+  "homepage": "https://jwmay.github.io/grade-calculator/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -16,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
